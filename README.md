@@ -1,2 +1,2 @@
 # midPTII
-https://github.com.xwen5.midptii.io
+https://xwen5.github.io/midptii/
