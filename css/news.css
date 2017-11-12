@@ -45,3 +45,20 @@ footer{
     color:rgb(200,200,200);
     margin: 50px;
 }
+/* Big screen desktop*/
+@media only screen and (min-width:1024px){
+
+    
+}
+/*mobile phones*/
+@media only screen and (min-device-width:375px) and (max-device-width:667px){
+    
+    
+    
+    
+}
+/*tablet and small size desktop*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    article{padding: 5vw; margin: 5vh 0;}
+    
+}
