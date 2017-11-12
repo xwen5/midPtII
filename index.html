@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css"><!-- a general style for all pages to use-->
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="author" content="Xiaoyu Wen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my website</title>
+</head>
+<body onscroll="myFunction()">
+
+<div class="header">
+  <h2>Welcome to My Website</h2>
+</div>
+
+<div id="navigation">
+  <a class="active" href="javascript:void(0)">Home</a>
+  <a href="news.html">News</a>
+  <a href="aboutme.html">About me</a>
+  <a href="collection.html">My Work</a>
+  <a id="contactme" onclick="return turnOn();">Contact me</a>
+</div>
+
+<div class="container">
+    <div class="black">
+        <span>
+            <p>In the black </p>
+            <p>In the wrong </p>
+            <p>In the dark </p>
+            <p>One is all</p>
+        </span>
+     </div>
+    <div class="white">
+        <span>
+            <p>There is white </p>
+             <p>Some is right </p>
+            <p>There is light</p>
+            <p>All is one</p>
+        </span>
+    </div>
+</div>  
+<div id="contactinfo" onclick="turnOff()">
+    <span><h1>Contact me </h1>
+    <p>xwen5@uci.edu</p>
+    </span>
+</div>
+
+ <script type="text/javascript" src="js/nav.js"></script>
+</body>
+</html>
