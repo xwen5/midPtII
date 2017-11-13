@@ -52,13 +52,23 @@ div.white span{
     clear: both;
     
 }
+
+/* Big screen desktop*/
+@media only screen and (min-width:1024px){
+
+    
+}
+/*mobile phones*/
 @media only screen and (min-device-width:375px) and (max-device-width:667px){
     div.black{width:100%;height: 40vh;font-size: 2em;}
     div.white{width: 100%; height: 40vh;font-size: 2em;}
     div.white span{float: none;position: relative; top: 0;right: 0;}
-    div.black span{float: none;position:relative;top: 14vh;right: 0;}    
+    div.black span{float: none;position:relative;top: 14vh;right: 0;}  
+    
+    
+    
 }
-
+/*tablet and small size desktop*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
     
     
