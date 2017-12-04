@@ -5,16 +5,13 @@ body{
 div.content{
     margin: 0 auto;
     width: 75vw;
+     
 }
 
 div.content h1{
     color: white;
 }
-.clearfix:after{
-    content:"";
-    display: table;
-    clear:both;
-}
+
 header{
     text-align: center;
     background-color:#fff;
@@ -26,18 +23,22 @@ article{
     background: white;
     padding: 20px;
     margin: 30px 0;
-    
+    overflow: auto;
 }
 article img{
+    display: block;
     height: 200px;
     width: auto;
     display: block;
+    float: left;
     
 }
 article p{
     margin: 0 0 1em;    
 }
-
+article a{
+    color:rgb(150,150,150);
+}
 section.post-head{
     display:block;
     margin: 0 0 20px;
@@ -46,15 +47,13 @@ section.post-head{
     color:rgb(150,150,150);
 }
 
-section.post-body{
- 
-}
 
 footer{
     text-align:center;
     color:rgb(200,200,200);
     margin: 50px;
 }
+
 /* Big screen desktop*/
 @media only screen and (min-width:1024px){
     article{padding: 3vw; margin: 3vw 0;}
