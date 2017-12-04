@@ -7,6 +7,14 @@ div.content{
     width: 75vw;
 }
 
+div.content h1{
+    color: white;
+}
+.clearfix:after{
+    content:"";
+    display: table;
+    clear:both;
+}
 header{
     text-align: center;
     background-color:#fff;
@@ -20,24 +28,26 @@ article{
     margin: 30px 0;
     
 }
-
+article img{
+    height: 200px;
+    width: auto;
+    display: block;
+    
+}
 article p{
     margin: 0 0 1em;    
 }
 
-section.post-head small{
+section.post-head{
     display:block;
     margin: 0 0 20px;
     padding: 0 0 20px;
-    border-bottom: 1px solid #eee;
-    color:rgb(80,200,245);
+    border-bottom: 1px solid #333;
+    color:rgb(150,150,150);
 }
 
-section.post-foot{
-    font-size: 14px;
-    border-top: solid 1px #eee;
-    margin: 20px 0 0 0;
-    padding: 20px 0 0 0;
+section.post-body{
+ 
 }
 
 footer{
